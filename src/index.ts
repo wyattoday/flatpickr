@@ -916,7 +916,7 @@ function FlatpickrInstance(
         "data-min",
         self.config.minDate.getFullYear().toString()
       );
-	  yearElement.setAttribute(
+      yearElement.setAttribute(
         "min",
         self.config.minDate.getFullYear().toString()
       );
@@ -1068,7 +1068,7 @@ function FlatpickrInstance(
       "data-max",
       self.config.time_24hr ? "23" : "12"
     );
-	self.hourElement.setAttribute(
+    self.hourElement.setAttribute(
       "min",
       self.config.time_24hr ? "0" : "1"
     );
